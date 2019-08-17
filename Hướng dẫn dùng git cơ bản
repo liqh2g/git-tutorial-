@@ -14,6 +14,10 @@ II. Các khái niệm trong git:
       Khi mình làm thay đổi dưới local trùng với chỗ người nào đó đã sửa và push lên (nhưng mình chưa pull về trước đó), thì khi pull về sẽ có "conflict". 
       "Conflict" nghĩa là "đụng độ". Khi code pull về bị conflict, cần phải "Resolve conflict" bằng cách chọn thay đổi nào được giữ lại và thay đổi nào sẽ xóa đi hoặc giữ lại cả 2 và chỉnh sữa cho tụi nó hoạt động.
     + push (đẩy): đưa code lên remote repository, nghĩa là đẩy lên cho tụi kia kéo về
+    + Collaborators: làm việc nhóm với git như nào:
+      + ai tạo repos thì vào đây: https://github.com/<tên_tài_khoản>/<tên_repos>/settings/collaboration
+      + gõ email github thành viên vào, thằng được mời làm chung đồng ý thì làm thôi.
+      
 III. Ví dụ thực tế:
     + Tải git về cài vào máy: https://git-scm.com/
     + Tiếp là phải tạo 1 remote repository (thư mục trên github.com) đó là chỗ lúc push code sẽ lên, repository đó có 1 đừng dẫn, đuôi là *.git.
@@ -31,6 +35,7 @@ III. Ví dụ thực tế:
       PUSH: cũng trên bash, gõ: git push origin master
     + Khi ai đó push gì mới lên thì ở máy lấy về bằng cách: gõ trên bash tại thư mục đã khởi tạo git (git init): git pull origin master
     + Hết, luyện tập bằng cách tạo 1 repo trống trên github cá nhân.
+    
 IV. Git GUI:
     Git GUI cho phép dùng git với giao diện, trực quan, bấm nút khỏi gõ lệnh.
     + SourceTree: miễn phí và lợi hại: https://www.sourcetreeapp.com
